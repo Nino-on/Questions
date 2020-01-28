@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Questions</title>
+  </head>
+  
+  <body onload=pageLoad()>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+               <h1>Star Wars Questions</h1> 
+            </div>
+        </div>
+             <div class= "row">
+                 <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                   <p>1 out 5</p>
+                </div>
+                    <div class= "col-xl-6 col-lg-6 col-md-6 col-6">
+                <p id="userAnswer"></p>
+                    </div>  
+            </div>    
+            <div class= "row">
+                <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                 <h2 id="questionOne"></h2> 
+                 <button type="button" class="btn btn-secondary btn-lg btn-block" id="Green" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Blue" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Red" onclick="correctFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Yellow" onclick="wrongFunction()"></button>
+
+                
+           </div>   
+      </div>
+    
+      <br>
+    
+      <div class="container">
+        <div class="row">  
+        </div>
+             <div class= "row">
+                 <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                   <p>2 out 5</p>
+                </div>
+                    <div class= "col-xl-6 col-lg-6 col-md-6 col-6">
+                      <p id="userAnswer2"></p>    
+                    </div>  
+            </div>    
+            <div class= "row">
+                <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                 <h2 id="questionTwo"></h2> 
+                 <button type="button" class="btn btn-secondary btn-lg btn-block" id="Skywalker" onclick="correctFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Oceanrunner"onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Skyforce"onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Desertfox" onclick="wrongFunction()"></button>
+                </div>
+                   
+           </div>   
+      </div>
+      <div class="container">
+        <div class="row">  
+        </div>
+             <div class= "row">
+                 <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                   <p>3 out 5</p>
+                </div>
+                    <div class= "col-xl-6 col-lg-6 col-md-6 col-6">
+                      <p id="userAnswer3"></p>    
+                    </div>  
+            </div>    
+            <div class= "row">
+                <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                 <h2 id="questionThree"></h2> 
+                 <button type="button" class="btn btn-secondary btn-lg btn-block" id="14" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="12" onclick="correctFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="18" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="24" onclick="wrongFunction()"></button>
+                </div>
+        <div class="container">
+        <div class="row">  
+        </div>
+             <div class= "row">
+                 <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                   <p>4 out 5</p>
+                </div>
+                    <div class= "col-xl-6 col-lg-6 col-md-6 col-6">
+                      <p id="userAnswer2"></p>    
+                    </div>  
+            </div>    
+            <div class= "row">
+                <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                 <h2 id="questionFour"></h2> 
+                 <button type="button" class="btn btn-secondary btn-lg btn-block" id="Tatooine" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Coruscant" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Kashyyyk" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Alderaan" onclick="correctFunction()"></button>
+                </div>
+         <div class="container">
+        <div class="row">  
+        </div>
+             <div class= "row">
+                 <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                   <p>5 out 5</p>
+                </div>
+                    <div class= "col-xl-6 col-lg-6 col-md-6 col-6">
+                      <p id="userAnswer2"></p>    
+                    </div>  
+            </div>    
+            <div class= "row">
+                <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-6">
+                 <h2 id="questionFive"></h2> 
+                 <button type="button" class="btn btn-secondary btn-lg btn-block" id="Windu" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Palpatine" onclick="correctFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Calrissian" onclick="wrongFunction()"></button>
+                 <button type="button" class="btn btn-secondary btn-lg btn-block"id="Solo" onclick="wrongFunction()"></button>
+                </div>
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                
+  </body>
+</html>
